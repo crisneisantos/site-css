@@ -2,6 +2,7 @@
 * body {
     padding-top: 60px;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -11,8 +12,10 @@
     color: #fff;
 }
 #header{
+    align-items: center;
     margin: 0 auto;
     width: 90%;
+    overflow: hidden;
 }
 #logo{
     float: left;
@@ -35,11 +38,10 @@
     transition: background 1s;
 }
 #menu-h li a:hover{
-   background-color: blue;
+   border-bottom: blue;
    
 }
-#sec1 {
-margin: 0 auto;
-margin-top: 30px;
-width: 30;
+
+.container{
+    display: flex;
 }
