@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 * body {
     padding-top: 60px;
+    background-color:  black;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:  black;
+    
     font-family: 'Open Sans', sans-serif;
     color: #fff;
 }
@@ -38,10 +39,60 @@
     transition: background 1s;
 }
 #menu-h li a:hover{
-   border-bottom: blue;
+   background-color: blue;
    
 }
-
+#texto {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+}
 .container{
+    padding: 30px;
     display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+#promo-video{
+    margin: 20px;
+}
+.container2{
+    padding: 30px;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.container2 div{
+    text-align: center;
+    margin: 40px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    width: 90%;
+    grid-gap: 40px;   
+}
+.card{
+    background-color: rgb(80, 78, 78);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 35px;
+    box-shadow: 3px 3px 6px rgb(77, 75, 75);
+}
+.textocard{
+    background-color: rgb(80, 78, 78);
+}
+.rodape{
+    display: flex;
+    
+}
+#logoroda{
+    padding: 35px;
+}
+#textoroda{
+    text-align: right;
+    padding: 200px;
 }
