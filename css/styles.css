@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-* body {
-    padding-top: 60px;
-    background-color:  black;
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +7,12 @@
     font-family: 'Open Sans', sans-serif;
     color: #fff;
 }
+* body {
+    padding-top: 60px;
+    background-color:  black;
+}
+
+
 #header{
     align-items: center;
     margin: 0 auto;
@@ -85,14 +86,11 @@
 .textocard{
     background-color: rgb(80, 78, 78);
 }
-.rodape{
+.footer {
     display: flex;
-    
+    align-items: end;
+    justify-content: space-between;
 }
-#logoroda{
+#logofooter{
     padding: 35px;
-}
-#textoroda{
-    text-align: right;
-    padding: 200px;
 }
