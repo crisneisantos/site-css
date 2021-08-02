@@ -3,94 +3,81 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
     font-family: 'Open Sans', sans-serif;
     color: #fff;
 }
 * body {
-    padding-top: 60px;
     background-color:  black;
 }
 
-
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+}
 #header{
     align-items: center;
-    margin: 0 auto;
-    width: 90%;
-    overflow: hidden;
 }
 #logo{
     float: left;
 }
-#menu-h{
+#menu{
     list-style-type: none;
     padding: 0;
-    background-color: black;
     float: right;
 }
-#menu-h li{
+#menu li{
     display:  inline;
 }
-#menu-h li a{
-    background-color: black ;
+#menu li a{
     color: blanchedalmond;
     text-decoration: none;
     padding: 20px;
     display: inline-block;
-    transition: background 1s;
+    border-bottom: 1px solid transparent;
+    transition: border 1s;
 }
-#menu-h li a:hover{
-   background-color: blue;
-   
+#menu li a:hover{
+   border-bottom: 1px solid blue;
 }
-#texto {
-    width: 90%;
-    margin: 0 auto;
-    padding: 30px;
-}
-.container{
-    padding: 30px;
+#promotional {
     display: flex;
-    width: 90%;
-    margin: 0 auto;
 }
+
 #promo-video{
     margin: 20px;
 }
-.container2{
-    padding: 30px;
+
+#colab-cards {
     display: flex;
-    width: 90%;
-    margin: 0 auto;
-}
-.container2 div{
-    text-align: center;
-    margin: 40px;
+    justify-content: space-around;
 }
 
 .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 auto;
-    width: 90%;
-    grid-gap: 40px;   
+    grid-gap: 40px;
 }
 .card{
     background-color: rgb(80, 78, 78);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 35px;
+    padding: 10px;
     box-shadow: 3px 3px 6px rgb(77, 75, 75);
+}
+.now-more {
+    text-align: right;
+}
+.produto img {
+    width: 100%
 }
 .textocard{
     background-color: rgb(80, 78, 78);
 }
-.footer {
+footer {
     display: flex;
     align-items: end;
     justify-content: space-between;
-}
-#logofooter{
-    padding: 35px;
 }
